@@ -245,7 +245,8 @@ def calc_gain(dataset, entropy, val, attr_index):
     total_examples = len(dataset.examples);
     gain_upper_dataset = data(classifier)
     gain_lower_dataset = data(classifier)
-    gain_upper_dataset.attributes = dataset.attributes
+    gain_upper_dat
+	aset.attributes = dataset.attributes
     gain_lower_dataset.attributes = dataset.attributes
     gain_upper_dataset.attr_types = dataset.attr_types
     gain_lower_dataset.attr_types = dataset.attr_types
